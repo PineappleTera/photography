@@ -104,7 +104,7 @@ nav ul {
      padding: 0;
 }
 nav ul li {
-      color: #4b4b4b;
+      color: #fff;
       font-family: 'Silk Serif', sans-serif;
       text-transform: uppercase;
      font-size: 10vh;
@@ -121,7 +121,7 @@ nav ul li {
     }
 }
 nav a {
-     color: black;
+     color: #FFF;
      -o-transition:.3s;
      -ms-transition:.3s;
      -moz-transition:.3s;
@@ -131,7 +131,7 @@ nav a {
       font: 'Silk Serif';
 }
 nav a:hover {
-color: #fff;
+color: #995D2D;
 
 }
 .navbar {
@@ -165,10 +165,10 @@ color: #fff;
      text-decoration: none;
 }
 .social a:hover {
-     color:#262626;
+     color:#995D2D;
 }
 .fa {
-     color: black;
+     color: #995D2D;
      padding-right: 12px;
      font-size: 1.8em !important;
      -o-transition:.3s;
