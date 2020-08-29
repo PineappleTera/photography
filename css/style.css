@@ -51,6 +51,7 @@
   font-family: "Silk Serif";
   text-align: left;
   width: 540px;
+  max-width: 80%;
   padding: 10px 10px 30px 40px;
 }
 
@@ -241,11 +242,22 @@ footer{
     width: 100%;
     height: auto;
 }
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+footer {
+  width: 300px;
+  } }
 
 @media (min-width: 768px) {
     .container {
         width:750px
     }
+
+    footer {
+      width: 750px;
+    }
+
+
 }
 
 @media (min-width: 992px) {
